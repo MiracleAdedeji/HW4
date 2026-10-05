@@ -1,0 +1,381 @@
+[
+  {
+    "time": "2026-10-05T04:16:38.085434+00:00",
+    "tool_name": "find_products",
+    "args": {
+      "query": "hoodie",
+      "limit": "1"
+    },
+    "result": {
+      "matches": "1"
+    },
+    "stop_reason": "completed"
+  },
+  {
+    "time": "2026-10-05T04:16:38.093481+00:00",
+    "tool_name": "check_stock",
+    "args": {
+      "product_id": "basic-hoodie-big-yale"
+    },
+    "result": {
+      "sizes_returned": "6"
+    },
+    "stop_reason": "completed"
+  },
+  {
+    "time": "2026-10-05T04:32:23.910687+00:00",
+    "tool_name": "agent_loop",
+    "args": {
+      "user_id": "guest",
+      "message_length": "17"
+    },
+    "result": {
+      "error_type": "ModelAPIError"
+    },
+    "stop_reason": "error"
+  },
+  {
+    "time": "2026-10-05T04:33:13.523616+00:00",
+    "tool_name": "agent_loop",
+    "args": {
+      "user_id": "guest",
+      "message_length": "25"
+    },
+    "result": {
+      "error_type": "ModelAPIError"
+    },
+    "stop_reason": "error"
+  },
+  {
+    "time": "2026-10-05T04:34:11.887436+00:00",
+    "tool_name": "agent_loop",
+    "args": {
+      "user_id": "guest",
+      "message_length": "25"
+    },
+    "result": {
+      "error_type": "ModelAPIError"
+    },
+    "stop_reason": "error"
+  },
+  {
+    "time": "2026-10-05T04:34:39.403854+00:00",
+    "tool_name": "find_products",
+    "args": {
+      "query": "hoodies",
+      "limit": "8"
+    },
+    "result": {
+      "matches": "8"
+    },
+    "stop_reason": "completed"
+  },
+  {
+    "time": "2026-10-05T04:34:52.194887+00:00",
+    "tool_name": "agent_loop",
+    "args": {
+      "user_id": "guest",
+      "message_length": "25"
+    },
+    "result": {
+      "error_type": "ModelAPIError"
+    },
+    "stop_reason": "error"
+  },
+  {
+    "time": "2026-10-05T04:36:08.393927+00:00",
+    "tool_name": "find_products",
+    "args": {
+      "query": "hoodies",
+      "limit": "8"
+    },
+    "result": {
+      "matches": "8"
+    },
+    "stop_reason": "completed"
+  },
+  {
+    "time": "2026-10-05T04:36:08.659773+00:00",
+    "tool_name": "agent_loop",
+    "args": {
+      "user_id": "guest",
+      "message_length": "25"
+    },
+    "result": {
+      "products": "8"
+    },
+    "stop_reason": "completed"
+  },
+  {
+    "time": "2026-10-05T04:36:21.814547+00:00",
+    "tool_name": "find_products",
+    "args": {
+      "query": "hoodies",
+      "limit": "8"
+    },
+    "result": {
+      "matches": "8"
+    },
+    "stop_reason": "completed"
+  },
+  {
+    "time": "2026-10-05T04:36:21.961572+00:00",
+    "tool_name": "agent_loop",
+    "args": {
+      "user_id": "guest",
+      "message_length": "25"
+    },
+    "result": {
+      "products": "8"
+    },
+    "stop_reason": "completed"
+  },
+  {
+    "time": "2026-10-05T04:36:41.434884+00:00",
+    "tool_name": "find_products",
+    "args": {
+      "query": "Yale campus apparel products with prices",
+      "limit": "8"
+    },
+    "result": {
+      "matches": "8"
+    },
+    "stop_reason": "completed"
+  },
+  {
+    "time": "2026-10-05T04:36:46.861817+00:00",
+    "tool_name": "agent_loop",
+    "args": {
+      "user_id": "guest",
+      "message_length": "17"
+    },
+    "result": {
+      "products": "8"
+    },
+    "stop_reason": "completed"
+  },
+  {
+    "time": "2026-10-05T04:45:33.279827+00:00",
+    "tool_name": "find_products",
+    "args": {
+      "query": "hoodies",
+      "limit": "8"
+    },
+    "result": {
+      "matches": "8"
+    },
+    "stop_reason": "completed"
+  },
+  {
+    "time": "2026-10-05T04:45:33.554402+00:00",
+    "tool_name": "agent_loop",
+    "args": {
+      "user_id": "guest",
+      "message_length": "25"
+    },
+    "result": {
+      "products": "8"
+    },
+    "stop_reason": "completed"
+  },
+  {
+    "time": "2026-10-05T04:46:12.272854+00:00",
+    "tool_name": "find_products",
+    "args": {
+      "query": "Basic Hoodie Big Yale",
+      "limit": "8"
+    },
+    "result": {
+      "matches": "8"
+    },
+    "stop_reason": "completed"
+  },
+  {
+    "time": "2026-10-05T04:46:14.057532+00:00",
+    "tool_name": "check_stock",
+    "args": {
+      "product_id": "basic-hoodie-big-yale"
+    },
+    "result": {
+      "sizes_returned": "6"
+    },
+    "stop_reason": "completed"
+  },
+  {
+    "time": "2026-10-05T04:46:16.553912+00:00",
+    "tool_name": "agent_loop",
+    "args": {
+      "user_id": "guest",
+      "message_length": "86"
+    },
+    "result": {
+      "products": "1"
+    },
+    "stop_reason": "completed"
+  },
+  {
+    "time": "2026-10-05T04:46:22.009580+00:00",
+    "tool_name": "find_products",
+    "args": {
+      "query": "hoodies",
+      "limit": "8"
+    },
+    "result": {
+      "matches": "8"
+    },
+    "stop_reason": "completed"
+  },
+  {
+    "time": "2026-10-05T04:46:22.135493+00:00",
+    "tool_name": "agent_loop",
+    "args": {
+      "user_id": "guest",
+      "message_length": "25"
+    },
+    "result": {
+      "products": "8"
+    },
+    "stop_reason": "completed"
+  },
+  {
+    "time": "2026-10-05T04:46:59.040766+00:00",
+    "tool_name": "find_products",
+    "args": {
+      "query": "Basic Hoodie Big Yale",
+      "limit": "8"
+    },
+    "result": {
+      "matches": "8"
+    },
+    "stop_reason": "completed"
+  },
+  {
+    "time": "2026-10-05T04:46:59.165291+00:00",
+    "tool_name": "product_details",
+    "args": {
+      "product_id": "basic-hoodie-big-yale"
+    },
+    "result": {
+      "found": "True"
+    },
+    "stop_reason": "completed"
+  },
+  {
+    "time": "2026-10-05T04:46:59.297309+00:00",
+    "tool_name": "agent_loop",
+    "args": {
+      "user_id": "guest",
+      "message_length": "86"
+    },
+    "result": {
+      "products": "1"
+    },
+    "stop_reason": "completed"
+  },
+  {
+    "time": "2026-10-05T04:47:10.333182+00:00",
+    "tool_name": "find_products",
+    "args": {
+      "query": "hoodies",
+      "limit": "8"
+    },
+    "result": {
+      "matches": "8"
+    },
+    "stop_reason": "completed"
+  },
+  {
+    "time": "2026-10-05T04:47:10.604966+00:00",
+    "tool_name": "agent_loop",
+    "args": {
+      "user_id": "guest",
+      "message_length": "25"
+    },
+    "result": {
+      "products": "8"
+    },
+    "stop_reason": "completed"
+  },
+  {
+    "time": "2026-10-05T04:47:46.400051+00:00",
+    "tool_name": "find_products",
+    "args": {
+      "query": "Basic Hoodie Big Yale",
+      "limit": "8"
+    },
+    "result": {
+      "matches": "8"
+    },
+    "stop_reason": "completed"
+  },
+  {
+    "time": "2026-10-05T04:47:46.619607+00:00",
+    "tool_name": "check_stock",
+    "args": {
+      "product_id": "basic-hoodie-big-yale"
+    },
+    "result": {
+      "sizes_returned": "6"
+    },
+    "stop_reason": "completed"
+  },
+  {
+    "time": "2026-10-05T04:47:46.893267+00:00",
+    "tool_name": "agent_loop",
+    "args": {
+      "user_id": "guest",
+      "message_length": "86"
+    },
+    "result": {
+      "products": "1"
+    },
+    "stop_reason": "completed"
+  },
+  {
+    "time": "2026-10-05T04:47:57.451707+00:00",
+    "tool_name": "find_products",
+    "args": {
+      "query": "hoodies",
+      "limit": "8"
+    },
+    "result": {
+      "matches": "8"
+    },
+    "stop_reason": "completed"
+  },
+  {
+    "time": "2026-10-05T04:47:57.599326+00:00",
+    "tool_name": "agent_loop",
+    "args": {
+      "user_id": "guest",
+      "message_length": "25"
+    },
+    "result": {
+      "products": "8"
+    },
+    "stop_reason": "completed"
+  },
+  {
+    "time": "2026-10-05T04:51:01.177170+00:00",
+    "tool_name": "check_stock",
+    "args": {
+      "product_id": "basic-hoodie-big-yale"
+    },
+    "result": {
+      "sizes_returned": "6"
+    },
+    "stop_reason": "completed"
+  },
+  {
+    "time": "2026-10-05T04:51:03.567133+00:00",
+    "tool_name": "agent_loop",
+    "args": {
+      "user_id": "guest",
+      "message_length": "58"
+    },
+    "result": {
+      "products": "1"
+    },
+    "stop_reason": "completed"
+  }
+]

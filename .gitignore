@@ -1,0 +1,26 @@
+# Secrets and local configuration
+.env
+*.env
+!.env.example
+
+# Local database and product media are supplied separately and must not be public
+campus_customs.db
+products/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node/Vite
+node_modules/
+frontend/dist/
+dist/
+npm-debug.log*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp

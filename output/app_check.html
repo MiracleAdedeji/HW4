@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Campus Customs — Question 11 App Check</title>
+  <style>
+    :root { color: #102a43; background: #f7fbff; font-family: Arial, sans-serif; }
+    * { box-sizing: border-box; }
+    body { max-width: 1100px; margin: 0 auto; padding: 42px 28px 70px; background: #f7fbff; }
+    header { border-bottom: 1px solid #d8e5f0; padding-bottom: 28px; margin-bottom: 34px; }
+    .eyebrow { color: #1e5aa8; font: 11px Consolas, monospace; letter-spacing: .14em; text-transform: uppercase; }
+    h1 { margin: 10px 0; font-size: clamp(34px, 6vw, 68px); letter-spacing: -.06em; }
+    h1 span { color: #1e5aa8; }
+    .intro { max-width: 700px; color: #526579; line-height: 1.6; }
+    .check { margin: 34px 0 58px; }
+    .check h2 { margin: 0 0 8px; font-size: 25px; }
+    .check p { color: #526579; line-height: 1.55; }
+    figure { margin: 18px 0 0; padding: 14px; border: 1px solid #c8d8e6; background: #fff; }
+    figure img { display: block; width: 100%; max-height: 900px; object-fit: contain; object-position: top; background: #eef6fd; }
+    figcaption { padding: 14px 3px 2px; color: #29445c; font-size: 14px; line-height: 1.5; }
+    figcaption strong { color: #1e5aa8; }
+    .result { display: inline-block; margin-top: 10px; padding: 6px 9px; color: #fff; background: #1e5aa8; font: 11px Consolas, monospace; }
+    footer { border-top: 1px solid #d8e5f0; padding-top: 20px; color: #6b7f91; font: 11px Consolas, monospace; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="eyebrow">Campus Customs · Question 11</div>
+    <h1>Live site <span>app check.</span></h1>
+    <p class="intro">These screenshots were captured from the running React/Vite site with the FastAPI backend active. The checks cover database-grounded chat, agent-driven product cards, and a usability feature from Problem 9.</p>
+  </header>
+
+  <section class="check">
+    <div class="eyebrow">Check 01 · Agent + database</div>
+    <h2>Chat checks inventory honestly</h2>
+    <p>The shopper asks about the Basic Hoodie Big Yale. The agent returns the database price of <strong>$68.00</strong> and the real stock by size: XS 15, S 5, M 5, L 8, XL 2, and XXL 25. This confirms that the chat answer is grounded in the catalogue and inventory tools.</p>
+    <figure><img src="app_check_images/inventory.png" alt="Campus Customs chat showing the Basic Hoodie Big Yale price and stock by size"><figcaption><strong>What this proves:</strong> The floating chat panel gives a clear product price and size-by-size inventory answer from the database.</figcaption></figure>
+    <span class="result">PASS · database-backed price and stock response</span>
+  </section>
+
+  <section class="check">
+    <div class="eyebrow">Check 02 · Agent search results</div>
+    <h2>Category questions create product cards</h2>
+    <p>After the chat search, the structured product matches are passed from FastAPI to React. The site renders the result as a product card with the catalogue image, name, price, garment type, and short description.</p>
+    <figure><img src="app_check_images/dynamic_product_cards.png" alt="Campus Customs matching product card returned after a chat search"><figcaption><strong>What this proves:</strong> A database-supported chat result appears as a matching product card and remains linked to the product detail view.</figcaption></figure>
+    <span class="result">PASS · structured agent results rendered on the page</span>
+  </section>
+
+  <section class="check">
+    <div class="eyebrow">Check 03 · Problem 9 usability</div>
+    <h2>Category filtering makes products easier to find</h2>
+    <p>The Products page category filter is set to “hoodie.” The catalogue immediately narrows to hoodie products, which makes target items easier to find without forcing shoppers to scan the full collection.</p>
+    <figure><img src="app_check_images/category_filter.png" alt="Campus Customs Products page filtered to hoodie products"><figcaption><strong>What this proves:</strong> The working category filter presents a focused hoodie collection while preserving the clean storefront layout.</figcaption></figure>
+    <span class="result">PASS · Problem 9 category-filter usability feature</span>
+  </section>
+
+  <footer>Tested October 5, 2026 · React/Vite frontend · FastAPI/PydanticAI backend · Campus Customs</footer>
+</body>
+</html>
